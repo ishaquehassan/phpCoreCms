@@ -1,0 +1,9 @@
+{
+  "package_name" : "product_gallery",
+  "name" : "Product Gallery",
+  "upload_dir" : "product_gallery/",
+  "db_table" : "product_gallery",
+  "db_prefix" : "gal_",
+  "db_pk" : "id",
+  "db_fk" : "prdId"
+}

@@ -1,0 +1,28 @@
+.form-content{
+  padding-bottom: 0px !important;
+  .form-row{
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    &:nth-child(1){
+      padding-top: 0;
+    }
+
+    &:nth-last-child(1){
+      border-bottom: 0px;
+    }
+
+    label{
+      text-align: right;
+      margin-top: 5px;
+    }
+
+    .form_error{
+      color: #f00;
+      font-size: 12px;
+      margin-top: 6px;
+      margin-bottom: -5px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../mixins/mixins";
+@include device(phablet){
+  nav.main-nav {
+    top: 48px;
+    height: calc(100vh - 48px);
+    transition: all 0.25s linear;
+    transform: translateX(-260px);
+    &.open{
+      transform: translateX(0px);
+    }
+    z-index: 1;
+  }
+
+  .mobile_menu_icon {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 20px;
+    color: #000;
+    -webkit-text-stroke: #fff 1px;
+    padding: 10px 20px;
+  }
+
+  .content-main{
+    margin-left: 0px;
+  }
+
+  .panel{
+    width: 100%;
+    margin: 0;
+  }
+
+  .btn_main_control{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 10px 0px;
+  }
+}

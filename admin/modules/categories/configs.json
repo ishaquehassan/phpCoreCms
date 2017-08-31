@@ -1,0 +1,8 @@
+{
+  "package_name" : "categories",
+  "name" : "Categories",
+  "upload_dir" : "categories/",
+  "db_table" : "categories",
+  "db_prefix" : "cat_",
+  "db_pk" : "id"
+}

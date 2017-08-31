@@ -1,0 +1,22 @@
+input,select,button,textarea{
+  font-size: 15px;
+}
+
+input:not([type=submit]), input:not([type=checkbox]), input:not([type=radio]), select, button {
+  border: 1px solid #ccc;
+  padding: 7px 10px;
+  display: block;
+  float: left;
+  &:hover,&:focus,&:active{
+    outline: 0;
+  }
+}
+
+select {
+  padding: 8px 10px;
+  color: #999;
+}
+
+button {
+  padding: 7px 12px;
+}

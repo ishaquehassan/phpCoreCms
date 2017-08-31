@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Banners",
+    "icon": "fa fa-image",
+    "url": "modules/banners/index.php",
+    "visible": true
+  },
+  {
+    "title": "Categories",
+    "icon": "fa fa-pie-chart",
+    "url": "modules/categories/index.php",
+    "visible": true
+  },
+  {
+    "title": "Products",
+    "icon": "fa fa-pie-chart",
+    "url": "modules/products/index.php",
+    "visible": true
+  },
+  {
+    "title": "Settings",
+    "icon": "fa fa-cogs",
+    "url": "modules/settings/index.php",
+    "visible": true
+  }
+]

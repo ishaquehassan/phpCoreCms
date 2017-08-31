@@ -1,0 +1,8 @@
+{
+  "package_name" : "products",
+  "name" : "Products",
+  "upload_dir" : "products/",
+  "db_table" : "products",
+  "db_prefix" : "prd_",
+  "db_pk" : "id"
+}

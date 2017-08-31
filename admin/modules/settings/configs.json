@@ -1,0 +1,8 @@
+{
+  "package_name" : "settings",
+  "name" : "Settings",
+  "upload_dir" : "settings/",
+  "db_table" : "settings",
+  "db_prefix" : "set_",
+  "db_pk" : "id"
+}

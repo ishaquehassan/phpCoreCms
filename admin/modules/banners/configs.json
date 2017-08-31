@@ -1,0 +1,8 @@
+{
+  "package_name" : "banners",
+  "name" : "Banners",
+  "upload_dir" : "banners/",
+  "db_table" : "banners",
+  "db_prefix" : "ban_",
+  "db_pk" : "id"
+}
